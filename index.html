@@ -677,8 +677,8 @@ html{
 <!---timetable Script--->
 <script type="text/javascript">
 	function countdown(){
-var open="10:00";
-var close="19:00";
+var open="10:0";
+var close="19:0";
 var d = new Date();
 var n = d.getDay();
 var h1=d.getHours()+':'+d.getMinutes();
@@ -692,7 +692,7 @@ var i=0;
 for(i=0;i<=6;i++){
 if(i!=0){
  if(n==i){
-  if(h == "22:00pm" || h == "7:00am" || h == "19:00pm" || h1 < open || h1 > close){
+  if(h == "22:00pm" || h == "7:0am" || h == "19:0pm" || h1 < open || h1 > close){
    document.getElementById("demo").innerHTML = "Open at 10:00AM to 7:00PM";
    document.getElementById("demo1").innerHTML ="Open at 10:00AM to 7:00PM";
 }
